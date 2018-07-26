@@ -1,4 +1,5 @@
 node {
  checkout scm
- sh "./gradlew clean build"
+ sh "./gradlew clean jar"
+ archiveArtifacts artifacts: 'artifacts/*.*', fingerprint: true
 }

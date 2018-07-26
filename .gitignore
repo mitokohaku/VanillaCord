@@ -1,6 +1,7 @@
 build/
 in/
 out/
+artifacts/
 .idea
 .gradle
 
